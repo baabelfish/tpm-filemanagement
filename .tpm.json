@@ -1,0 +1,6 @@
+{
+    "bin": {
+        "tpm-filemanager": "filemanager.sh"
+    },
+    "source": ["bookmarks.sh"]
+}
