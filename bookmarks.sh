@@ -11,9 +11,9 @@
 # ml              - List all marks.
 
 # Bookmark location
-bookmarkfile="/home/baabelfish/.zsh_bookmarks"
+bookmarkfile="$HOME/.zsh_bookmarks"
 if [[ -e /usr/bin/ranger ]]; then
-    bookmarkfile="/home/$USER/.config/ranger/bookmarks"
+    bookmarkfile="$HOME/.config/ranger/bookmarks"
 fi
 
 # Add a bookmark
